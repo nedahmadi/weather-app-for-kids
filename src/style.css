@@ -1,0 +1,107 @@
+.text {
+  font-size: 16.5px;
+  position: relative;
+  bottom: -75px;
+  left: 20px;
+  font-family: "Architects Daughter", cursive;
+  color: #ec885b;
+}
+.sun {
+  width: 165px;
+  position: relative;
+  left: 100px;
+}
+
+.kids {
+  width: 450px;
+}
+.title {
+  margin-top: -160px;
+  margin-left: 260px;
+  color: #4f81c7;
+}
+.time {
+  margin-left: 100px;
+  color: #4f81c7;
+  font-family: "Architects Daughter", cursive;
+  margin-bottom: -70px;
+}
+.searche {
+  padding-left: 80px;
+  padding-top: 50px;
+}
+.box-serach {
+  width: 250px;
+  padding: 13.5px;
+  color: #4f81c7;
+  opacity: 0.8;
+}
+.btn-primary {
+  width: 100px;
+  padding: 14.5px;
+
+  position: relative;
+  bottom: 2px;
+}
+.city-text {
+  margin-left: 550px;
+  position: relative;
+  top: -50px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+  color: #5e63b6;
+}
+.saat {
+  padding-left: 600px;
+  margin-top: -30px;
+  font-family: "Architects Daughter", cursive;
+  font-size: 30px;
+  color: #5e63b6;
+}
+.wholecity {
+  position: relative;
+  left: -60px;
+}
+.bear {
+  width: 55px;
+  position: relative;
+  left: 550px;
+  bottom: -100px;
+  background-color: cyan;
+}
+.theremeter {
+  width: 111px;
+  position: relative;
+  left: 470px;
+  bottom: 40px;
+}
+.description {
+  list-style: none;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+  position: relative;
+  bottom: 170px;
+  left: 160px;
+  color: #5e63b6;
+}
+.wholerow {
+  padding-left: 60px;
+  font-family: "Architects Daughter", cursive;
+  font: 20px;
+}
+.wholepage {
+  padding-top: 50px;
+  background-image: linear-gradient(
+    to top,
+    rgb(112, 199, 221) 20%,
+    #cfe1ed 70%
+  );
+
+  width: 70%;
+  margin: 70px auto;
+  border-radius: 15px;
+}
+hr {
+  padding: 3px;
+  color: white;
+}

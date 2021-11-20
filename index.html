@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app for kids</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="wholepage">
+      <img class="sun" src="src/img.jpg.png" />
+
+      <div class="title">
+        <h1 class="text">
+          No matter what the weather, bring your own sunshine
+        </h1>
+        <img class="kids" src="src/kids.jpg.jpg" alt="" />
+      </div>
+      <p class="time">Friday 12:12</p>
+      <br />
+
+      <div class="searche">
+        <br />
+        <br />
+        <br />
+        <form>
+          <input
+            type="text"
+            class="box-serach"
+            id="boxe-search"
+            placeholder="Enter your location"
+            autocomplete="off"
+          />
+
+          <button type="button" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+      <div class="wholecity">
+        <span class="city-text"> <strong> Orange Country </strong> </span>
+        <p class="saat"><strong> 8 C°| F </strong>°</p>
+      </div>
+
+      <img class="bear" src="src/bear2.jpg.jpg" />
+      <br />
+      <img class="theremeter" src="src/thermometer.jpg.gif" />
+
+      <ul class="description">
+        <li>🟡</li>
+        <li>Sunny</li>
+        <li>Humidity:48%</li>
+        <li>Wind:32%</li>
+      </ul>
+      <hr />
+      <div class="wholerow">
+        <div class="container-1">
+          <div class="row">
+            <div class="col-2">Sat</div>
+            <div class="col-2">Sun</div>
+            <div class="col-2">Mon</div>
+            <div class="col-2">Tue</div>
+            <div class="col-2">Wed</div>
+            <div class="col-2">Thr</div>
+          </div>
+        </div>
+
+        <div class="container2">
+          <div class="row">
+            <div class="col-2">🌩️</div>
+            <div class="col-2">⛅</div>
+            <div class="col-2">☀️</div>
+            <div class="col-2">🌧️</div>
+            <div class="col-2">🌤️</div>
+            <div class="col-2">⛈️</div>
+          </div>
+        </div>
+
+        <div class="container3">
+          <div class="row">
+            <div class="col-2">19°</div>
+            <div class="col-2">18°</div>
+            <div class="col-2">18°</div>
+            <div class="col-2">15°</div>
+            <div class="col-2">16°</div>
+            <div class="col-2">17°</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
